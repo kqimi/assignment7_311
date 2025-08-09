@@ -26,7 +26,7 @@ public class SignedMessaging {
         User bob   = new User("bob", generateRSAKeyPair());
 
         System.out.println("Alice public key: " + alice.publicKeyBase64());
-        System.out.println("Bob public key:   " + bob.publicKeyBase64());
+        System.out.println("Bob public key: " + bob.publicKeyBase64());
         System.out.println();
 
         // Build a message from Alice to Bob
